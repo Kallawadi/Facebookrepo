@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  
+  <listeners>
+		<listener class-name="fb.qa.extentreportlistener.ExtentReportListener" />
+	</listeners>
+  
+  
+  
+  <test name="FacebookAutomationTestSuite">
+    <classes>
+      <class name="fb.qa.testcases.LoginPageTest"/>
+        <class name="fb.qa.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
